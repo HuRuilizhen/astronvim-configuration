@@ -12,8 +12,9 @@ return {
   -- available plugins can be found at https://github.com/AstroNvim/astrocommunity
   -- official website can be found at https://astronvim.github.io/astrocommunity/
 
-  -- catppuccin theme plugin
+  -- theme and color
   { import = "astrocommunity.colorscheme.catppuccin" },
+  { import = "astrocommunity.color.twilight-nvim" },
 
   -- status line
   { import = "astrocommunity.recipes.heirline-mode-text-statusline" },
