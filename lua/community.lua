@@ -28,4 +28,7 @@ return {
 
   -- ai completion
   { import = "astrocommunity.completion.codex-nvim" },
+
+  -- note taking
+  { import = "astrocommunity.note-taking.global-note-nvim" },
 }
