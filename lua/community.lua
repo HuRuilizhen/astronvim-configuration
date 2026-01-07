@@ -17,4 +17,7 @@ return {
 
   -- docker tui
   { import = "astrocommunity.docker.lazydocker" },
+
+  -- markdown preview
+  { import = "astrocommunity.markdown-and-latex.peek-nvim" },
 }
