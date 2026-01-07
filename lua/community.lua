@@ -14,4 +14,7 @@ return {
 
   -- catppuccin theme plugin
   { import = "astrocommunity.colorscheme.catppuccin" },
+
+  -- docker tui
+  { import = "astrocommunity.docker.lazydocker" },
 }
