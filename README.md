@@ -30,10 +30,10 @@ mv ~/.cache/nvim ~/.cache/nvim.bak
 ### Clean current nvim cache file
 
 ```shell
-rm ~/.config/nvim
-rm ~/.local/share/nvim 
-rm ~/.local/state/nvim 
-rm ~/.cache/nvim 
+rm -rf ~/.config/nvim
+rm -rf ~/.local/share/nvim 
+rm -rf ~/.local/state/nvim 
+rm -rf ~/.cache/nvim 
 ```
 
 ### Clone the repository
