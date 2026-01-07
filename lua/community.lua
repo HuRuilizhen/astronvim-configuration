@@ -20,4 +20,7 @@ return {
 
   -- markdown preview
   { import = "astrocommunity.markdown-and-latex.peek-nvim" },
+
+  -- ai completion
+  { import = "astrocommunity.completion.codex-nvim" },
 }
