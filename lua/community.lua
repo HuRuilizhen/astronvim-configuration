@@ -15,6 +15,10 @@ return {
   -- catppuccin theme plugin
   { import = "astrocommunity.colorscheme.catppuccin" },
 
+  -- status line
+  { import = "astrocommunity.recipes.heirline-mode-text-statusline" },
+  { import = "astrocommunity.recipes.heirline-clock-statusline" },
+
   -- docker tui
   { import = "astrocommunity.docker.lazydocker" },
 
