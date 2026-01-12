@@ -20,6 +20,9 @@ return {
   { import = "astrocommunity.recipes.heirline-mode-text-statusline" },
   { import = "astrocommunity.recipes.heirline-clock-statusline" },
 
+  -- lsp picker integration
+  { import = "astrocommunity.recipes.picker-lsp-mappings" },
+
   -- docker tui
   { import = "astrocommunity.docker.lazydocker" },
 
