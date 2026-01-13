@@ -23,6 +23,9 @@ return {
   -- lsp picker integration
   { import = "astrocommunity.recipes.picker-lsp-mappings" },
 
+  -- coding time tracker
+  { import = "astrocommunity.media.vim-wakatime" },
+
   -- docker tui
   { import = "astrocommunity.docker.lazydocker" },
 
