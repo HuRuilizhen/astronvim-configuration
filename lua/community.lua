@@ -37,4 +37,7 @@ return {
 
   -- note taking
   { import = "astrocommunity.note-taking.global-note-nvim" },
+
+  -- language pack
+  { import = "astrocommunity.pack.markdown" },
 }
