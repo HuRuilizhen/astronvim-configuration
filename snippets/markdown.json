@@ -1,21 +1,11 @@
 {
-  "table of content": {
-    "prefix": [
-      "toc"
-    ],
-    "body": [
-      "<!-- toc -->"
-    ],
-    "description": "add table of content comment"
-  },
   "table of content section": {
     "prefix": [
       "tocs"
     ],
     "body": [
       "## Table of Content",
-      "",
-      "<!-- toc -->"
+      ""
     ],
     "description": "add table of content comment section"
   }
