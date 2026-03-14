@@ -41,4 +41,5 @@ return {
   -- language pack
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.pack.cpp" },
+  { import = "astrocommunity.pack.python" },
 }
