@@ -29,9 +29,6 @@ return {
   -- docker tui
   { import = "astrocommunity.docker.lazydocker" },
 
-  -- markdown preview
-  { import = "astrocommunity.markdown-and-latex.peek-nvim" },
-
   -- ai completion
   { import = "astrocommunity.completion.codex-nvim" },
 
@@ -42,4 +39,8 @@ return {
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.pack.cpp" },
   { import = "astrocommunity.pack.python" },
+
+  -- better edit
+  { import = "astrocommunity.markdown-and-latex.peek-nvim" },
+  { import = "astrocommunity.markdown-and-latex.render-markdown-nvim" },
 }
