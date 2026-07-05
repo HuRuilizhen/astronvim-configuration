@@ -38,6 +38,7 @@ return {
   -- language pack
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.pack.cpp" },
+  { import = "astrocommunity.pack.cmake" },
   { import = "astrocommunity.pack.python" },
 
   -- better edit
