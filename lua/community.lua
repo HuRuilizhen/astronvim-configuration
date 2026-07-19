@@ -32,6 +32,9 @@ return {
   -- ai completion
   { import = "astrocommunity.completion.codex-nvim" },
 
+  -- yazi file explorer
+  { import = "astrocommunity.file-explorer.yazi-nvim" },
+
   -- note taking
   { import = "astrocommunity.note-taking.global-note-nvim" },
 
