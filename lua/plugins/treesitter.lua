@@ -12,13 +12,11 @@ return {
       "css",
       "html",
       "javascript",
-      "latex",
       "norg",
       "scss",
       "svelte",
       "tsx",
       "typst",
-      "vue",
     },
   },
 }

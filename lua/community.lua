@@ -7,7 +7,11 @@
 ---@type LazySpec
 return {
   -- astronvim community plugin
-  "AstroNvim/astrocommunity",
+  {
+    "AstroNvim/astrocommunity",
+    version = "^19",
+  },
+
   { import = "astrocommunity.pack.lua" },
   -- available plugins can be found at https://github.com/AstroNvim/astrocommunity
   -- official website can be found at https://astronvim.github.io/astrocommunity/
@@ -28,9 +32,6 @@ return {
 
   -- docker tui
   { import = "astrocommunity.docker.lazydocker" },
-
-  -- yazi file explorer
-  { import = "astrocommunity.file-explorer.yazi-nvim" },
 
   -- language pack
   { import = "astrocommunity.pack.markdown" },
