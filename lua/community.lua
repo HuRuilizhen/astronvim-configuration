@@ -16,6 +16,9 @@ return {
   -- available plugins can be found at https://github.com/AstroNvim/astrocommunity
   -- official website can be found at https://astronvim.github.io/astrocommunity/
 
+  -- editing support
+  { import = "astrocommunity.code-runner.conjure" },
+
   -- theme and color
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.color.twilight-nvim" },
