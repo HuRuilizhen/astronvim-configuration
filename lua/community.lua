@@ -18,6 +18,7 @@ return {
 
   -- editing support
   { import = "astrocommunity.code-runner.conjure" },
+  { import = "astrocommunity.editing-support.conform-nvim" },
 
   -- theme and color
   { import = "astrocommunity.colorscheme.catppuccin" },
